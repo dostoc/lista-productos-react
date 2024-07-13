@@ -3,10 +3,11 @@ import { data } from './data'
 
 export const ProductList = () => {
   return (
-    <div className='row text-center'>
-      {
+    <div className="container" >
+      <div className='row text-center'>
+        {
 
-        data.map(producto => (
+          data.map(producto => (
 
             <div className='item card row col-4' key={producto.id}  >
 
@@ -23,10 +24,11 @@ export const ProductList = () => {
 
             </div>
 
-        ))
+          ))
 
-      }
+        }
 
+      </div>
     </div>
   )
 }
