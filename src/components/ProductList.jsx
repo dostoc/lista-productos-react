@@ -3,13 +3,13 @@ import { data } from './data'
 
 export const ProductList = () => {
   return (
-    <div className="container" >
-      <div className='row text-center'>
+    <div className="container text-center"  >
+      <div className='row align-items-start'>
         {
 
           data.map(producto => (
 
-            <div className='item card row col-4 border border-0' key={producto.id}  >
+            <div className='card border border-0 col-sm-4' key={producto.id}  >
 
               <img className="card-img-top rounded mx-auto d-block"
                 src={producto.imageUrl}
