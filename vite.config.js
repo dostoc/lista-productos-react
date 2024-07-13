@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:"/lista-productos-react/",
   plugins: [react()],
-  base:"https://dostoc.github.io/lista-productos-react/",
 
 })
