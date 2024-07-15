@@ -1,6 +1,5 @@
-import './App.css'
-import { Header } from './components/Header'
-import { ProductList } from './components/ProductList'
+import { Header } from './components/Header';
+import { ProductList } from './components/ProductList';
 
 function App() {
 
@@ -8,6 +7,7 @@ function App() {
     <>
       <Header/>
       <ProductList/>
+
     </>
   )
 }
